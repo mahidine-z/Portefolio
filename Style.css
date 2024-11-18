@@ -13,7 +13,7 @@
 
 body {
 
-    background-image: url("/assets/fantasy-style-entryway-door-with-desert-landscape.jpg");
+    background-image: url("assets/bg-img.jpg");
     width: 100%;
     background-size: 100%;
     background-attachment: fixed;
