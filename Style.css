@@ -14,7 +14,7 @@
 body {
     background-image: url("/assets/fantasy-style-entryway-door-with-desert-landscape.jpg");
     width: 100%;
-    background-size: 100%;
+    background-size: 100%
 }
 
 /*bouton contact*/
@@ -65,6 +65,55 @@ body {
 h1,
 .text {
     font-family: "Antic Didone", serif;
-    font-size: 12px;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.Projets {
+    position: relative;
+    padding: 20px 30px;
+    background: transparent;
+    border: 3px solid #f3eaff;
+    border-radius: 50px;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 16px;
+    text-decoration: none;
     color: #fff;
+    box-shadow: 0 0 7px 0 #EA9210, 0 0 5px 2px #8F530F, inset 0 0 7px 0 #F5DA9F, inset 0 0 5px 1px #B5A989;
+}
+
+
+.Projets:before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    border-radius: 50px;
+    transition: all 200ms ease-in-out;
+}
+
+.Projets:hover::before {
+    top: -9px;
+    left: -9px;
+    width: calc(100% + 16px);
+    height: calc(100% + 16px);
+    border: 1px solid #f3eaff;
+    box-shadow: 0 0 7px 0 #EA9210, 0 0 5px 2px #8F530F, inset 0 0 7px 0 #F5DA9F, inset 0 0 5px 1px #B5A989;
+}
+a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+.flex{
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.center{
+    justify-content: center;
+    gap:16px;
 }
